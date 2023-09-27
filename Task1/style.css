@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Adding a semi-transparent white background over the image */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.registration-form {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #1877f2;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1558c0;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.social-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.google {
+    background-color: #fff;
+    color: #db4437;
+    border-color: #db4437;
+}
+
+.facebook {
+    background-color: #fff;
+    color: #1877f2;
+    border-color: #1877f2;
+}
+
+.linkedin {
+    background-color: #fff;
+    color: #0077b5;
+    border-color: #0077b5;
+}
+
+.instagram {
+    background-color: #fff;
+    color: #bc2a8d;
+    border-color: #bc2a8d;
+}
+
+.login-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-button a {
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login-button a:hover {
+    background-color: #0056b3;
+}
+.forgotten-password {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.forgotten-password a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.forgotten-password a:hover {
+    text-decoration: underline;
+}

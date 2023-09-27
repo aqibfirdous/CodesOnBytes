@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration form</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sign Up Section -->
+        <div class="registration-form">
+            <h1>Create an Account</h1>
+            <form id="registration-form">
+                <input type="text" id="reg-username" placeholder="Username" required>
+                <input type="email" id="reg-email" placeholder="Email Address" required>
+                <input type="password" id="reg-password" placeholder="Password" required>
+                <input type="password" id="reg-confirm-password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+            <div class="social-login">
+                <p>Or Sign Up with:</p>
+                <div class="social-buttons">
+                    <button class="social-button google">Google</button>
+                    <button class="social-button facebook">Facebook</button>
+                    <button class="social-button linkedin">LinkedIn</button>
+                    <button class="social-button instagram">Instagram</button>
+                </div>
+            </div>
+            <p>Already have an account?</p>
+        </div>
+
+        <!-- Log In Section -->
+        <div class="login-form">
+            <div id="loginTab" class="tab-content">
+                <h1>Log In</h1>
+                <form id="login-form">
+                    <input type="text" id="login-username" placeholder="Username" required>
+                    <input type="password" id="login-password" placeholder="Password" required>
+                    <div class="forgotten-password">
+                        <a href="#">Forgotten Password?</a>
+                    </div>
+                    <button type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</html>
