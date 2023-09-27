@@ -1,0 +1,85 @@
+body {
+    font-family: 'https://fonts.google.com/specimen/Mooli', sans-serif; 
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.add-task {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.add-task input[type="text"], .add-task input[type="checkbox"], .add-task button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.add-task input[type="text"] {
+    flex: 1;
+}
+
+.add-task input[type="checkbox"] {
+    flex: none;
+    width: auto;
+}
+
+.add-task button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style for checked checkboxes */
+table td:nth-child(5), table td:nth-child(6) {
+    font-weight: bold;
+    color: #28a745;
+}
